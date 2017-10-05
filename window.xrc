@@ -1,57 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resource xmlns="http://www.wxwidgets.org/wxxrc">
-  <object class="wxFrame" name="main_frame">
-    <title>Heroes Clock</title>
-    <centered>1</centered>
-    <style>wxDEFAULT_FRAME_STYLE</style>
-    <size>500,300</size>
-    <object class="wxBoxSizer" name="main_sizer">
-      <orient>wxVERTICAL</orient>
-      <minsize>500,300</minsize>
-      <object class="spacer">
-        <flag>wxALL</flag>
-        <border>5</border>
-        <option>1</option>
-      </object>
-      <object class="sizeritem">
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTER</flag>
-        <border>5</border>
-        <object class="wxStaticText" name="above_timer_label">
-          <label/>
-          <style>wxST_NO_AUTORESIZE|wxALIGN_CENTRE</style>
-          <font>
-            <size>12</size>
-          </font>
+    <object class="wxFrame" name="main_frame">
+        <title>Heroes Clock</title>
+        <centered>1</centered>
+        <style>wxDEFAULT_FRAME_STYLE</style>
+        <size>500,300</size>
+        <object class="wxBoxSizer" name="main_sizer">
+            <orient>wxVERTICAL</orient>
+            <minsize>500,300</minsize>
+            <object class="spacer">
+                <flag>wxALL</flag>
+                <border>5</border>
+                <option>1</option>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALL|wxEXPAND|wxALIGN_CENTER</flag>
+                <border>5</border>
+                <object class="wxStaticText" name="above_timer_label">
+                    <label/>
+                    <style>wxST_NO_AUTORESIZE|wxALIGN_CENTRE</style>
+                    <font>
+                        <size>12</size>
+                    </font>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALL|wxEXPAND|wxALIGN_CENTER</flag>
+                <border>5</border>
+                <object class="wxStaticText" name="timer_label">
+                    <label/>
+                    <style>wxST_NO_AUTORESIZE|wxALIGN_CENTRE</style>
+                    <font>
+                        <size>24</size>
+                        <weight>bold</weight>
+                    </font>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALL|wxEXPAND|wxALIGN_CENTER</flag>
+                <border>5</border>
+                <object class="wxStaticText" name="prompt_label">
+                    <label/>
+                    <style>wxST_NO_AUTORESIZE|wxALIGN_CENTRE</style>
+                    <font>
+                        <size>12</size>
+                    </font>
+                </object>
+            </object>
+            <object class="spacer">
+                <flag>wxALL</flag>
+                <border>5</border>
+                <option>1</option>
+            </object>
         </object>
-      </object>
-      <object class="sizeritem">
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTER</flag>
-        <border>5</border>
-        <object class="wxStaticText" name="timer_label">
-          <label/>
-          <style>wxST_NO_AUTORESIZE|wxALIGN_CENTRE</style>
-          <font>
-            <size>24</size>
-            <weight>bold</weight>
-          </font>
-        </object>
-      </object>
-      <object class="sizeritem">
-        <flag>wxALL|wxEXPAND|wxALIGN_CENTER</flag>
-        <border>5</border>
-        <object class="wxStaticText" name="prompt_label">
-          <label/>
-          <style>wxST_NO_AUTORESIZE|wxALIGN_CENTRE</style>
-          <font>
-            <size>12</size>
-          </font>
-        </object>
-      </object>
-      <object class="spacer">
-        <flag>wxALL</flag>
-        <border>5</border>
-        <option>1</option>
-      </object>
     </object>
-  </object>
 </resource>
